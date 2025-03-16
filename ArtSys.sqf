@@ -26,11 +26,11 @@ TryShoot =
 				
 				if ( [_vec,150] call CheckForFriendlyFire ) then
 				{
-					//hint str ("FFV");
-					[_target,_art,_knowledge] call artFire
+					//hint str ("FFV");					
 				}
 				else
 				{
+					[_target,_art,_knowledge] call artFire
 					//hint str ("SHOOT");
 				}				
 			}
